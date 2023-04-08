@@ -10,3 +10,8 @@ document.addEventListener('visibilitychange',(event)=>{
         console.log(`we are back from background after ${timeElapsed/1000}s`)
     }
 })
+
+document.addEventListener('freeze',(event)=>{
+    // we will be suspended
+    console.log(`last chance to save the state - `)
+})
