@@ -15,3 +15,8 @@ document.addEventListener('freeze',(event)=>{
     // we will be suspended
     console.log(`last chance to save the state - `)
 })
+
+document.addEventListener('resume',(event)=>{
+    // we are back from suspension
+    console.log(`No need to store the state`)
+})
