@@ -20,3 +20,8 @@ document.addEventListener('resume',(event)=>{
     // we are back from suspension
     console.log(`No need to store the state`)
 })
+
+document.addEventListener('DOMContentLoaded',(event)=>{
+    // we are back from suspension but, the tab was discarded 
+    console.log(`Restore the state`)
+})
