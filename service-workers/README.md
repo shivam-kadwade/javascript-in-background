@@ -14,3 +14,5 @@ proxy for your PWA, including resources and API calls
     No need for user's permission
 
 A service worker can execute a code for 5 use-cases sync, background-sync, fetch, push. and payment handler even if the browser is closed provided that the browser is in memory
+
+When a installed service worker is started again activated after an event, It cannot access stored data/variables from previous execution as the execution context is newly created
