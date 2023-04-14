@@ -16,3 +16,6 @@ proxy for your PWA, including resources and API calls
 A service worker can execute a code for 5 use-cases sync, background-sync, fetch, push. and payment handler even if the browser is closed provided that the browser is in memory
 
 When a installed service worker is started again activated after an event, It cannot access stored data/variables from previous execution as the execution context is newly created
+
+Because service workers act as middleware between your site and the internet, it’s really important that information is secure and encrypted. As a result, service workers will only work on sites that have an SSL certificate installed.
+
