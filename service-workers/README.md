@@ -19,3 +19,9 @@ When a installed service worker is started again activated after an event, It ca
 
 Because service workers act as middleware between your site and the internet, it’s really important that information is secure and encrypted. As a result, service workers will only work on sites that have an SSL certificate installed.
 
+There is an exception for localhost testing, but you can’t run them from file://. You need to have a local server running(npx serve  --listen 8000)
+
+## Notications and UI
+
+https://rpsthecoder.github.io/square-loading-favicon/
+
