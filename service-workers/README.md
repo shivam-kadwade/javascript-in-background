@@ -25,3 +25,4 @@ There is an exception for localhost testing, but you can’t run them from file:
 
 https://rpsthecoder.github.io/square-loading-favicon/
 
+## Media Session and PiP(Picture in Picture)
