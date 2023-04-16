@@ -26,3 +26,7 @@ There is an exception for localhost testing, but you can’t run them from file:
 https://rpsthecoder.github.io/square-loading-favicon/
 
 ## Media Session and PiP(Picture in Picture)
+
+When the tab has video(PiP) or audio in background, the tab will have a power like it's running in forground.
+i.e The timers are not throttled
+https://pip-rendering-fun.netlify.app/
