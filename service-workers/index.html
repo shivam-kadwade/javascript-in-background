@@ -5,10 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
+    <script src="media.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
     <title>Background</title>
 </head>
 <body>
+    <div class="container">
     <h1 style="text-align: center;">Service Worker</h1>
     <div id="root"></div>
+<main>
+    <section id="media">
+        <h2>Media Playing</h2> 
+        <p>Too Much Funk by Airbnb</p> 
+        <audio src="media/audio.mp3"></audio>          
+        <button id="btnPlay">Play</button>
+        <button id="btnStop">Stop</button>
+    </section> 
+    <section id="pip">
+        <h2>Picture in Picture</h2>   
+        <video src="media/video.mp4" width="320" height="240" controls></video>         
+        <button id="btnPiP">Toggle PiP</button>
+    </section> 
+</main>
+</div>
 </body>
 </html>
