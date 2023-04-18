@@ -17,3 +17,7 @@ document.getElementById('btnPlay').addEventListener('click',()=>{
     })
     document.querySelector('audio').play()
 })
+
+document.getElementById("btnStop").addEventListener('click',()=>{
+    document.querySelector('audio').pause()
+})
