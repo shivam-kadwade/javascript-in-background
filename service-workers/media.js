@@ -21,3 +21,10 @@ document.getElementById('btnPlay').addEventListener('click',()=>{
 document.getElementById("btnStop").addEventListener('click',()=>{
     document.querySelector('audio').pause()
 })
+
+document.getElementById('btnPiP').addEventListener('click',()=>{
+    if(document.pictureInPictureElement){
+        document.exitPictureInPicture()
+    }
+    document.querySelector('video').requestPictureInPicture()
+})
