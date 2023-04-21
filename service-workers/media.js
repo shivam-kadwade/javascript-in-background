@@ -28,3 +28,10 @@ document.getElementById('btnPiP').addEventListener('click',()=>{
     }
     document.querySelector('video').requestPictureInPicture()
 })
+
+document.getElementById('btnBeacon').addEventListener("click",(event)=>{
+        const data = {
+            message:"Message from Airbnb"
+        }
+        navigator.sendBeacon('/log',JSON.stringify(data))
+})
