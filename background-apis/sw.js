@@ -12,3 +12,13 @@ self.addEventListener('sync',(event)=>{
             console.log(`Sync operation for unknown tag ${event.tag}`)
     }
 })
+
+self.addEventListener('periodicsync',(event)=>{
+    switch(event.tag){
+        case "dailynews":
+            console.log('Periodic sync event for dailynews tag')
+            break;
+        default:
+            console.log(`Periodic sync event for unknown tag ${event.tag}`)
+    }
+})
