@@ -22,3 +22,10 @@ self.addEventListener('periodicsync',(event)=>{
             console.log(`Periodic sync event for unknown tag ${event.tag}`)
     }
 })
+
+self.addEventListener("backgroundfetchsuccess", (event)=>{
+    console.log("files downloaded successfully")
+    const downloadedFiles = event.registration.matchAll()
+    console.log(downloadedFiles)
+})
+
