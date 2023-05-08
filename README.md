@@ -2,3 +2,4 @@
 
 ## Push Notification
 ## Background sync
+## Periodic Background Sync
