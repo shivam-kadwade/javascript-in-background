@@ -55,3 +55,11 @@ function savePushUser(type, endpoint, id, keys) {
         }
     });
 }
+
+
+var server = app.listen(4000, function() {
+  var host = server.address().address=="::" ? "localhost" : server.address().address;
+  var port = server.address().port;
+
+  console.log('Open browser at http://%s:%s', host, port);
+});
